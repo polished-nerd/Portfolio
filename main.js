@@ -27,7 +27,7 @@ var width, height;
 window.onload = window.onresize = function () {
     width = this.innerWidth;
     height = this.innerHeight;
-//    alert(width)
+    //    alert(width)
     if (width <= 800) {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
@@ -38,11 +38,13 @@ window.onload = window.onresize = function () {
                 document.getElementsByClassName("main-nav")[0].style.top = "-75px";
             }
             prevScrollpos = currentScrollPos;
-        };
+        }
+    } else {
+        window.onresize = function(){ location.reload(); }
     }
 }
 
-
+//
 
 
 //SIDE SCROLL BUTTON
