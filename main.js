@@ -28,7 +28,7 @@ window.onload = window.onresize = function () {
     width = this.innerWidth;
     height = this.innerHeight;
     //    alert(width)
-    if (width <= 800) {
+    if (width <= 900) {
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
             let currentScrollPos = window.pageYOffset;
@@ -39,12 +39,11 @@ window.onload = window.onresize = function () {
             }
             prevScrollpos = currentScrollPos;
         }
-    } else {
-        window.onresize = function(){ location.reload(); }
     }
 }
 
-//
+//    } else {
+   // window.onresize = function(){ location.reload(); }
 
 
 //SIDE SCROLL BUTTON
