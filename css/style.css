@@ -25,7 +25,7 @@
     --fw-bold: 900;
 
 
-    --clr-primary: #121212;
+    --clr-primary: #020202;
     --clr-secondary:  #D3CAB9;
     --clr-accent-1: #F8FCDB;
 
@@ -599,7 +599,7 @@ h1 li a {
     font-weight: var(--fw-reg);
     width: var(--mwp-sh);
     font-size: var(--fs-h3);
-    padding: 3px 6px 3px 6px;
+    padding: 3px 6px 3px 0px;
     line-height: 1.3em;
 }
 
@@ -607,7 +607,7 @@ h1 li a {
     font-weight: var(--fw-reg);
     width: var(--mwp-sh);
     font-size: var(--fs-h3);
-    padding: 6px;
+    padding: 6px 0px;
     padding-top: 15px;
     line-height: 1.3em;
 }
